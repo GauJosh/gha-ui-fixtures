@@ -1,0 +1,21 @@
+{
+  "attempts": 1,
+  "captured_at": "2026-10-20T04:38:58+00:00",
+  "conclusion": "success",
+  "event": "workflow_dispatch",
+  "head_branch": "main",
+  "head_sha": "6a2b0ba6087f65afd0f8ddb4504f9edadd38ab9e",
+  "logs": {
+    "118457523456": "ok"
+  },
+  "redactions": {
+    "email": 1
+  },
+  "schema_version": 1,
+  "source": {
+    "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39370646308",
+    "repo": "GauJosh/gha-ui-fixtures",
+    "run_id": 39370646308
+  },
+  "workflow": "s16 composite then step (pass)"
+}

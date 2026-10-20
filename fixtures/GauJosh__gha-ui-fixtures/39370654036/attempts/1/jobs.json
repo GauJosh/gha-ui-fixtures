@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118457547647",
+      "completed_at": "2026-10-20T04:38:45Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T04:38:40Z",
+      "head_branch": "main",
+      "head_sha": "6a2b0ba6087f65afd0f8ddb4504f9edadd38ab9e",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39370654036/job/118457547647",
+      "id": 118457547647,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "composite-then-step",
+      "node_id": "CR_kwDOVQUgYs8AAAAblJ67fw",
+      "run_attempt": 1,
+      "run_id": 39370654036,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39370654036",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000848,
+      "runner_name": "GitHub Actions 1000000848",
+      "started_at": "2026-10-20T04:38:42Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T04:38:43Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T04:38:42Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T04:38:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "success",
+          "name": "Run ./.github/actions/fixture-composite",
+          "number": 3,
+          "started_at": "2026-10-20T04:38:44Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "failure",
+          "name": "Step after composite",
+          "number": 4,
+          "started_at": "2026-10-20T04:38:44Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "success",
+          "name": "Run echo \"unnamed final step\"",
+          "number": 5,
+          "started_at": "2026-10-20T04:38:44Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 10,
+          "started_at": "2026-10-20T04:38:44Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T04:38:44Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-20T04:38:44Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118457547647",
+      "workflow_name": "s16 composite then step (fail)"
+    }
+  ],
+  "total_count": 1
+}

@@ -1,0 +1,36 @@
+name: s16 composite then step
+run-name: s16 composite then step (${{ inputs.outcome }})
+# A passing composite action (two inner steps that emit their own "Run ..." markers)
+# followed by regular steps: a *named* step that fails when outcome=fail, then an
+# *unnamed* step that always runs. Tests that step-to-log mapping keeps the composite's
+# inner output inside the composite step and attributes the error to the following step.
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  composite-then-step:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/fixture-composite
+        with:
+          outcome: pass
+      - name: Step after composite
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          echo "running the step that follows the composite action"
+          if [ "$OUTCOME" = "fail" ]; then
+            echo "::error title=After composite::synthetic failure in the step after the composite action"
+            exit 4
+          fi
+          echo "step after composite ok"
+      - if: always()
+        run: echo "unnamed final step"

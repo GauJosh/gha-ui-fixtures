@@ -1,0 +1,38 @@
+[
+  {
+    "annotation_level": "failure",
+    "blob_href": "https://github.com/GauJosh/gha-ui-fixtures/blob/6a2b0ba6087f65afd0f8ddb4504f9edadd38ab9e/.github",
+    "end_column": null,
+    "end_line": 14,
+    "message": "Process completed with exit code 4.",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 14,
+    "title": ""
+  },
+  {
+    "annotation_level": "failure",
+    "blob_href": "https://github.com/GauJosh/gha-ui-fixtures/blob/6a2b0ba6087f65afd0f8ddb4504f9edadd38ab9e/.github",
+    "end_column": null,
+    "end_line": 13,
+    "message": "synthetic failure in the step after the composite action",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 13,
+    "title": "After composite"
+  },
+  {
+    "annotation_level": "notice",
+    "blob_href": "https://github.com/GauJosh/gha-ui-fixtures/blob/6a2b0ba6087f65afd0f8ddb4504f9edadd38ab9e/.github",
+    "end_column": null,
+    "end_line": 1,
+    "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 1,
+    "title": ""
+  }
+]

@@ -1,0 +1,749 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811420757",
+      "completed_at": "2026-10-16T04:29:11Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811420757",
+      "id": 116811420757,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test (ubuntu-latest, Python 3.10)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDUVQ",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000750,
+      "runner_name": "GitHub Actions 1000000750",
+      "started_at": "2026-10-16T04:28:48Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:50Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:55Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.10",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:03Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:28:55Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:08Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:29:03Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:08Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.10",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:08Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:08Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:08Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:08Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:08Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811420757",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811420963",
+      "completed_at": "2026-10-16T04:30:13Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811420963",
+      "id": 116811420963,
+      "labels": [
+        "windows-latest"
+      ],
+      "name": "test (windows-latest, Python 3.14)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDVIw",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000751,
+      "runner_name": "GitHub Actions 1000000751",
+      "started_at": "2026-10-16T04:28:48Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:50Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:58Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:02Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.14",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:58Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:01Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:29:02Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:08Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:30:01Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:10Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.14",
+          "number": 9,
+          "started_at": "2026-10-16T04:30:08Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:12Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:30:10Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:12Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:30:12Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811420963",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811420968",
+      "completed_at": "2026-10-16T04:29:08Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811420968",
+      "id": 116811420968,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test (ubuntu-latest, Python 3.13)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDVKA",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000752,
+      "runner_name": "GitHub Actions 1000000752",
+      "started_at": "2026-10-16T04:28:49Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:50Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:54Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.13",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:02Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:28:54Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:05Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:29:02Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:05Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.13",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:05Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:05Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:05Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:05Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:05Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811420968",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811420989",
+      "completed_at": "2026-10-16T04:29:41Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811420989",
+      "id": 116811420989,
+      "labels": [
+        "windows-latest"
+      ],
+      "name": "test (windows-latest, Python 3.10)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDVPQ",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000753,
+      "runner_name": "GitHub Actions 1000000753",
+      "started_at": "2026-10-16T04:28:48Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:59Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:04Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.10",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:59Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:31Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:29:04Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:37Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:29:31Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:38Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.10",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:37Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:40Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:38Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:40Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:40Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811420989",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811421174",
+      "completed_at": "2026-10-16T04:29:20Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811421174",
+      "id": 116811421174,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test (ubuntu-latest, Python 3.14)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDV9g",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000755,
+      "runner_name": "GitHub Actions 1000000755",
+      "started_at": "2026-10-16T04:28:49Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:52Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:00Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.14",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:52Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:11Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:29:00Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:17Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:29:11Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:17Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.14",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:17Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:17Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:17Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811421174",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811421180",
+      "completed_at": "2026-10-16T04:29:02Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811421180",
+      "id": 116811421180,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test (ubuntu-latest, Python 3.11)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDV_A",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000754,
+      "runner_name": "GitHub Actions 1000000754",
+      "started_at": "2026-10-16T04:28:49Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:50Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:52Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.11",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:58Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:28:52Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:01Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:28:58Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:01Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.11",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:01Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:01Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:01Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:01Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:01Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811421180",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811421848",
+      "completed_at": "2026-10-16T04:29:05Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:28:47Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811421848",
+      "id": 116811421848,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test (ubuntu-latest, Python 3.12)",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoDYmA",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000756,
+      "runner_name": "GitHub Actions 1000000756",
+      "started_at": "2026-10-16T04:28:49Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:28:50Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:28:49Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:51Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:28:50Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:52Z",
+          "conclusion": "success",
+          "name": "Set up Python 3.12",
+          "number": 3,
+          "started_at": "2026-10-16T04:28:51Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:28:59Z",
+          "conclusion": "success",
+          "name": "Install (documented development install)",
+          "number": 4,
+          "started_at": "2026-10-16T04:28:52Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:02Z",
+          "conclusion": "success",
+          "name": "Run test suite",
+          "number": 5,
+          "started_at": "2026-10-16T04:28:59Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:03Z",
+          "conclusion": "success",
+          "name": "Post Set up Python 3.12",
+          "number": 9,
+          "started_at": "2026-10-16T04:29:02Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:03Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 10,
+          "started_at": "2026-10-16T04:29:03Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:29:03Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-16T04:29:03Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811421848",
+      "workflow_name": "CI"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116811801767",
+      "completed_at": "2026-10-16T04:30:28Z",
+      "conclusion": "success",
+      "created_at": "2026-10-16T04:30:14Z",
+      "head_branch": "main",
+      "head_sha": "41dc8e6d7ec70d7813e09505a7261115fae11a39",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422/job/116811801767",
+      "id": 116811801767,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "build distributable package",
+      "node_id": "CR_kwDOVIpwac8AAAAbMoakpw",
+      "run_attempt": 1,
+      "run_id": 38850824422,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38850824422",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000757,
+      "runner_name": "GitHub Actions 1000000757",
+      "started_at": "2026-10-16T04:30:16Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:30:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:30:16Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:19Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:30:18Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:21Z",
+          "conclusion": "success",
+          "name": "Set up Python",
+          "number": 3,
+          "started_at": "2026-10-16T04:30:19Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:22Z",
+          "conclusion": "success",
+          "name": "Install build tooling",
+          "number": 4,
+          "started_at": "2026-10-16T04:30:21Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:24Z",
+          "conclusion": "success",
+          "name": "Build sdist and wheel",
+          "number": 5,
+          "started_at": "2026-10-16T04:30:22Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:26Z",
+          "conclusion": "success",
+          "name": "Upload build artifacts",
+          "number": 6,
+          "started_at": "2026-10-16T04:30:24Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:26Z",
+          "conclusion": "success",
+          "name": "Post Set up Python",
+          "number": 11,
+          "started_at": "2026-10-16T04:30:26Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:26Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 12,
+          "started_at": "2026-10-16T04:30:26Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:30:26Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 13,
+          "started_at": "2026-10-16T04:30:26Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116811801767",
+      "workflow_name": "CI"
+    }
+  ],
+  "total_count": 8
+}

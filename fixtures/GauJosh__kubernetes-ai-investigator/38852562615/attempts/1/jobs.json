@@ -1,0 +1,73 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/check-runs/116816811710",
+      "completed_at": "2026-10-16T04:49:17Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-16T04:49:08Z",
+      "head_branch": "dependabot/pip/pytest-gte-8-and-lt-10",
+      "head_sha": "7ab07955837bdc91da00f176610aa1cc8ec212de",
+      "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38852562615/job/116816811710",
+      "id": 116816811710,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "dependency-review",
+      "node_id": "CR_kwDOVIpwac8AAAAbMtMWvg",
+      "run_attempt": 1,
+      "run_id": 38852562615,
+      "run_url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/runs/38852562615",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000772,
+      "runner_name": "GitHub Actions 1000000772",
+      "started_at": "2026-10-16T04:49:10Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-16T04:49:12Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-16T04:49:11Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:49:13Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "started_at": "2026-10-16T04:49:12Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:49:14Z",
+          "conclusion": "failure",
+          "name": "Dependency Review",
+          "number": 3,
+          "started_at": "2026-10-16T04:49:13Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:49:14Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 6,
+          "started_at": "2026-10-16T04:49:14Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-16T04:49:14Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "started_at": "2026-10-16T04:49:14Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/kubernetes-ai-investigator/actions/jobs/116816811710",
+      "workflow_name": "Dependency Review"
+    }
+  ],
+  "total_count": 1
+}

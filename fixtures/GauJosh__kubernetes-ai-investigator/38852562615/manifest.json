@@ -1,0 +1,21 @@
+{
+  "attempts": 1,
+  "captured_at": "2026-10-20T02:15:58+00:00",
+  "conclusion": "failure",
+  "event": "pull_request",
+  "head_branch": "dependabot/pip/pytest-gte-8-and-lt-10",
+  "head_sha": "7ab07955837bdc91da00f176610aa1cc8ec212de",
+  "logs": {
+    "116816811710": "ok"
+  },
+  "redactions": {
+    "email": 2
+  },
+  "schema_version": 1,
+  "source": {
+    "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38852562615",
+    "repo": "GauJosh/kubernetes-ai-investigator",
+    "run_id": 38852562615
+  },
+  "workflow": "Dependency Review"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "annotation_level": "notice",
+    "blob_href": "https://github.com/GauJosh/kubernetes-ai-investigator/blob/9e54d9dea11130be5ffc043258b666e85a717912/.github",
+    "end_column": null,
+    "end_line": 1,
+    "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 1,
+    "title": ""
+  }
+]

@@ -1,0 +1,23 @@
+name: Fixture composite action
+description: Composite action whose inner step fails when outcome=fail.
+inputs:
+  outcome:
+    description: pass or fail
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Prepare (composite inner step 1)
+      shell: bash
+      run: echo "composite step 1 ok"
+    - name: Verify config (composite inner step 2)
+      shell: bash
+      env:
+        OUTCOME: ${{ inputs.outcome }}
+      run: |
+        echo "checking fixture config..."
+        if [ "$OUTCOME" = "fail" ]; then
+          echo "::error title=Composite failure::config key 'fixture.mode' is missing (synthetic)"
+          exit 3
+        fi
+        echo "config ok"

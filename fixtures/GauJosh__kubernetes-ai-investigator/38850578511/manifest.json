@@ -1,0 +1,28 @@
+{
+  "attempts": 1,
+  "captured_at": "2026-10-20T02:15:31+00:00",
+  "conclusion": "failure",
+  "event": "push",
+  "head_branch": "main",
+  "head_sha": "9e54d9dea11130be5ffc043258b666e85a717912",
+  "logs": {
+    "116810661874": "ok",
+    "116810661987": "ok",
+    "116810662077": "ok",
+    "116810662100": "ok",
+    "116810662107": "ok",
+    "116810662133": "ok",
+    "116810662167": "ok",
+    "116810943639": "unavailable:404"
+  },
+  "redactions": {
+    "email": 3
+  },
+  "schema_version": 1,
+  "source": {
+    "html_url": "https://github.com/GauJosh/kubernetes-ai-investigator/actions/runs/38850578511",
+    "repo": "GauJosh/kubernetes-ai-investigator",
+    "run_id": 38850578511
+  },
+  "workflow": "CI"
+}

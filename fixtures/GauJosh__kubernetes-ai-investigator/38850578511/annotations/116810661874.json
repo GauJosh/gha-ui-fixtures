@@ -1,0 +1,14 @@
+[
+  {
+    "annotation_level": "failure",
+    "blob_href": "https://github.com/GauJosh/kubernetes-ai-investigator/blob/9e54d9dea11130be5ffc043258b666e85a717912/.github",
+    "end_column": null,
+    "end_line": 199,
+    "message": "Process completed with exit code 1.",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 199,
+    "title": ""
+  }
+]

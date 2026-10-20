@@ -1,0 +1,21 @@
+name: s15 rerun passes
+run-name: s15 rerun passes
+# Fails on attempt 1 and passes on any re-run attempt.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  attempt-sensitive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fails on first attempt only
+        env:
+          ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          echo "run_attempt=$ATTEMPT"
+          if [ "$ATTEMPT" = "1" ]; then
+            echo "Error: connection reset by peer (synthetic, attempt 1)"
+            exit 1
+          fi
+          echo "passed on attempt $ATTEMPT"

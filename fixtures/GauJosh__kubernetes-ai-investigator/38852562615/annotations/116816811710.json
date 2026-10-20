@@ -1,0 +1,26 @@
+[
+  {
+    "annotation_level": "failure",
+    "blob_href": "https://github.com/GauJosh/kubernetes-ai-investigator/blob/7ab07955837bdc91da00f176610aa1cc8ec212de/.github",
+    "end_column": null,
+    "end_line": 5,
+    "message": "Dependency review is not supported on this repository. Please ensure that Dependency graph is enabled, see https://github.com/GauJosh/kubernetes-ai-investigator/settings/security_analysis",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 5,
+    "title": ""
+  },
+  {
+    "annotation_level": "notice",
+    "blob_href": "https://github.com/GauJosh/kubernetes-ai-investigator/blob/7ab07955837bdc91da00f176610aa1cc8ec212de/.github",
+    "end_column": null,
+    "end_line": 1,
+    "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 1,
+    "title": ""
+  }
+]

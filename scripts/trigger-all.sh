@@ -7,7 +7,7 @@ REPO=${1:-GauJosh/gha-ui-fixtures}
 run() { echo "dispatch $*"; gh workflow run --repo "$REPO" "$@"; }
 
 # Pass first, then fail, so "previous successful run" exists for comparison.
-for wf in s02-unit-test-failure s03-matrix-failure s04-compile-error s05-cascade-skip s06-timeout \
+for wf in s02-unit-test-failure s03-matrix-failure s04-compile-error s05-cascade-skip s06-timeout s16-composite-then-step \
           s08-dependency-failure s10-log-groups s11-annotations s12-reusable-composite; do
   run "$wf.yml" -f outcome=pass
 done
@@ -18,7 +18,7 @@ for i in 1 2 3 4 5 6; do run s07-flaky.yml; done              # ~30% fail rate
 run s15-rerun-passes.yml                                      # attempt 1 fails
 
 echo "waiting 90s before dispatching failing variants..."; sleep 90
-for wf in s02-unit-test-failure s03-matrix-failure s04-compile-error s05-cascade-skip s06-timeout \
+for wf in s02-unit-test-failure s03-matrix-failure s04-compile-error s05-cascade-skip s06-timeout s16-composite-then-step \
           s08-dependency-failure s10-log-groups s11-annotations s12-reusable-composite; do
   run "$wf.yml" -f outcome=fail
 done

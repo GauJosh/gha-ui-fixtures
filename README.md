@@ -25,6 +25,7 @@ Every scenario runs via `workflow_dispatch`. Most take an `outcome` input (`pass
 | 13 | `s13-workflow-change.yml` | Passes on `main`; branch `scenario/workflow-change` changes only the YAML and fails |
 | 14 | `s14-cancellation.yml` | Run cancelled by a concurrency group |
 | 15 | `s15-rerun-passes.yml` | Fails on attempt 1, passes on re-run (attempt 2) |
+| 16 | `s16-composite-then-step.yml` | Passing composite action followed by a named step that fails, then an unnamed step (step-to-log mapping boundary) |
 
 ## Producing and capturing runs
 

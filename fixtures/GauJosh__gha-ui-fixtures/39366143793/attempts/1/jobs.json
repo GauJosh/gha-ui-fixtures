@@ -1,0 +1,97 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443329914",
+      "completed_at": "2026-10-20T03:47:45Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:47:39Z",
+      "head_branch": "scenario/workflow-change",
+      "head_sha": "9af225cbe72fba8070e5d71803a8471cd56db3d5",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366143793/job/118443329914",
+      "id": 118443329914,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8XJeg",
+      "run_attempt": 1,
+      "run_id": 39366143793,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366143793",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000843,
+      "runner_name": "GitHub Actions 1000000843",
+      "started_at": "2026-10-20T03:47:41Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:47:42Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:47:41Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:43Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T03:47:42Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:43Z",
+          "conclusion": "failure",
+          "name": "Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "number": 3,
+          "started_at": "2026-10-20T03:47:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:43Z",
+          "conclusion": "skipped",
+          "name": "Run pip install -r requirements-dev.txt",
+          "number": 4,
+          "started_at": "2026-10-20T03:47:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:43Z",
+          "conclusion": "skipped",
+          "name": "Run tests",
+          "number": 5,
+          "started_at": "2026-10-20T03:47:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:43Z",
+          "conclusion": "skipped",
+          "name": "Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "number": 9,
+          "started_at": "2026-10-20T03:47:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:44Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 10,
+          "started_at": "2026-10-20T03:47:43Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:44Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-20T03:47:44Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443329914",
+      "workflow_name": "s13 workflow change"
+    }
+  ],
+  "total_count": 1
+}

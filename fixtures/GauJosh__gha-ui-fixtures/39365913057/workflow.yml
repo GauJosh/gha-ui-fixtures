@@ -1,0 +1,43 @@
+name: s05 cascade skip
+run-name: s05 cascade skip (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          echo "compiling module a... ok"
+          echo "compiling module b..."
+          if [ "$OUTCOME" = "fail" ]; then
+            echo "error: module b: undefined symbol 'fixture_init' (synthetic)"
+            exit 2
+          fi
+          echo "build ok"
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "tests would run here"
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deploy would run here"
+  report:
+    needs: [build, test, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "build=${{ needs.build.result }} test=${{ needs.test.result }} deploy=${{ needs.deploy.result }}"

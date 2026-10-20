@@ -1,0 +1,73 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442664537",
+      "completed_at": "2026-10-20T03:45:20Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:13Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365932223/job/118442664537",
+      "id": 118442664537,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "annotate",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7uiWQ",
+      "run_attempt": 1,
+      "run_id": 39365932223,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365932223",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000810,
+      "runner_name": "GitHub Actions 1000000810",
+      "started_at": "2026-10-20T03:45:15Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:17Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:16Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:17Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:18Z",
+          "conclusion": "success",
+          "name": "Emit annotations",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:18Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 6,
+          "started_at": "2026-10-20T03:45:18Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:18Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "started_at": "2026-10-20T03:45:18Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442664537",
+      "workflow_name": "s11 annotations (pass)"
+    }
+  ],
+  "total_count": 1
+}

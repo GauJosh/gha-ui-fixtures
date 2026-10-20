@@ -1,0 +1,165 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443307692",
+      "completed_at": "2026-10-20T03:47:41Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:47:34Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366137075/job/118443307692",
+      "id": 118443307692,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "via-composite",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8VyrA",
+      "run_attempt": 1,
+      "run_id": 39366137075,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366137075",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000840,
+      "runner_name": "GitHub Actions 1000000840",
+      "started_at": "2026-10-20T03:47:36Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:47:38Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:47:37Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:38Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T03:47:38Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:39Z",
+          "conclusion": "failure",
+          "name": "Run ./.github/actions/fixture-composite",
+          "number": 3,
+          "started_at": "2026-10-20T03:47:38Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:39Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 6,
+          "started_at": "2026-10-20T03:47:39Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:39Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "started_at": "2026-10-20T03:47:39Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443307692",
+      "workflow_name": "s12 reusable and composite (fail)"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443307917",
+      "completed_at": "2026-10-20T03:47:42Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:47:34Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366137075/job/118443307917",
+      "id": 118443307917,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "via-reusable / inner-test",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8VzjQ",
+      "run_attempt": 1,
+      "run_id": 39366137075,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366137075",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000841,
+      "runner_name": "GitHub Actions 1000000841",
+      "started_at": "2026-10-20T03:47:36Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:47:37Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:47:37Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:38Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T03:47:37Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:38Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "number": 3,
+          "started_at": "2026-10-20T03:47:38Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:40Z",
+          "conclusion": "success",
+          "name": "Run pip install -r requirements-dev.txt",
+          "number": 4,
+          "started_at": "2026-10-20T03:47:38Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:41Z",
+          "conclusion": "failure",
+          "name": "Run tests (reusable)",
+          "number": 5,
+          "started_at": "2026-10-20T03:47:40Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:41Z",
+          "conclusion": "skipped",
+          "name": "Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "number": 9,
+          "started_at": "2026-10-20T03:47:41Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:41Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 10,
+          "started_at": "2026-10-20T03:47:41Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:41Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 11,
+          "started_at": "2026-10-20T03:47:41Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443307917",
+      "workflow_name": "s12 reusable and composite (fail)"
+    }
+  ],
+  "total_count": 2
+}

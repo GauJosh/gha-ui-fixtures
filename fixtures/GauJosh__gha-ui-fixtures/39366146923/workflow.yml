@@ -1,0 +1,22 @@
+name: s14 cancellation
+run-name: s14 cancellation (${{ inputs.seconds }}s)
+# Dispatch twice: the concurrency group cancels the first run automatically.
+on:
+  workflow_dispatch:
+    inputs:
+      seconds:
+        description: how long to run
+        default: "180"
+permissions:
+  contents: read
+concurrency:
+  group: s14-cancellation
+  cancel-in-progress: true
+jobs:
+  long:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Long-running step
+        env:
+          SECS: ${{ inputs.seconds }}
+        run: for i in $(seq 1 "$SECS"); do echo "tick $i"; sleep 1; done

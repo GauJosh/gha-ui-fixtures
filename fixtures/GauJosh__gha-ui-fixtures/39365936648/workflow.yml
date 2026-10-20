@@ -1,0 +1,24 @@
+name: s12 reusable and composite
+run-name: s12 reusable and composite (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  via-reusable:
+    uses: ./.github/workflows/_reusable-test.yml
+    with:
+      outcome: ${{ inputs.outcome }}
+  via-composite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/fixture-composite
+        with:
+          outcome: ${{ inputs.outcome }}

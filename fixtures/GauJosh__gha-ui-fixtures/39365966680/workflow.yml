@@ -1,0 +1,19 @@
+name: s07 flaky
+run-name: s07 flaky
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Integration test (fails ~30% of runs)
+        run: |
+          R=$((RANDOM % 100))
+          echo "roll=$R (fails when < 30)"
+          if [ "$R" -lt 30 ]; then
+            echo "AssertionError: expected 200 from /health, got 503 (synthetic flake)"
+            exit 1
+          fi
+          echo "integration ok"

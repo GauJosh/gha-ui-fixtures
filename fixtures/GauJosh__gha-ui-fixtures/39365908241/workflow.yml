@@ -1,0 +1,24 @@
+name: s04 compile error
+run-name: s04 compile error (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Type-check TypeScript
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          FILE=ts/ok.ts
+          if [ "$OUTCOME" = "fail" ]; then FILE=ts/broken.ts; fi
+          npx --yes -p typescript@5.6.3 tsc --noEmit --strict "$FILE"

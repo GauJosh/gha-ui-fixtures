@@ -1,0 +1,213 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442606396",
+      "completed_at": "2026-10-20T03:45:05Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:01Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365913057/job/118442606396",
+      "id": 118442606396,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "build",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7q_PA",
+      "run_attempt": 1,
+      "run_id": 39365913057,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365913057",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000804,
+      "runner_name": "GitHub Actions 1000000804",
+      "started_at": "2026-10-20T03:45:03Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:03Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:03Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:04Z",
+          "conclusion": "success",
+          "name": "Build",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:03Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:04Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:04Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442606396",
+      "workflow_name": "s05 cascade skip (pass)"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442628687",
+      "completed_at": "2026-10-20T03:45:10Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:06Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365913057/job/118442628687",
+      "id": 118442628687,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "test",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7sWTw",
+      "run_attempt": 1,
+      "run_id": 39365913057,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365913057",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000806,
+      "runner_name": "GitHub Actions 1000000806",
+      "started_at": "2026-10-20T03:45:07Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:08Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:08Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:08Z",
+          "conclusion": "success",
+          "name": "Run echo \"tests would run here\"",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:08Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:08Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:08Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442628687",
+      "workflow_name": "s05 cascade skip (pass)"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442650584",
+      "completed_at": "2026-10-20T03:45:15Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:10Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365913057/job/118442650584",
+      "id": 118442650584,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "deploy",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7tr2A",
+      "run_attempt": 1,
+      "run_id": 39365913057,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365913057",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000808,
+      "runner_name": "GitHub Actions 1000000808",
+      "started_at": "2026-10-20T03:45:12Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:13Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:13Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:13Z",
+          "conclusion": "success",
+          "name": "Run echo \"deploy would run here\"",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:13Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:13Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:13Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442650584",
+      "workflow_name": "s05 cascade skip (pass)"
+    },
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442675032",
+      "completed_at": "2026-10-20T03:45:21Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:15Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365913057/job/118442675032",
+      "id": 118442675032,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "report",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7vLWA",
+      "run_attempt": 1,
+      "run_id": 39365913057,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365913057",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000811,
+      "runner_name": "GitHub Actions 1000000811",
+      "started_at": "2026-10-20T03:45:17Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:18Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:19Z",
+          "conclusion": "success",
+          "name": "Run echo \"build=success test=success deploy=success\"",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:18Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:19Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:19Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442675032",
+      "workflow_name": "s05 cascade skip (pass)"
+    }
+  ],
+  "total_count": 4
+}

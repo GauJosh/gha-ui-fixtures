@@ -1,0 +1,26 @@
+[
+  {
+    "annotation_level": "failure",
+    "blob_href": "https://github.com/GauJosh/gha-ui-fixtures/blob/9af225cbe72fba8070e5d71803a8471cd56db3d5/.github",
+    "end_column": null,
+    "end_line": 12,
+    "message": "The version '3.99' with architecture 'x64' was not found for Ubuntu 24.04.\nThe list of all available versions can be found here: https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 12,
+    "title": ""
+  },
+  {
+    "annotation_level": "notice",
+    "blob_href": "https://github.com/GauJosh/gha-ui-fixtures/blob/9af225cbe72fba8070e5d71803a8471cd56db3d5/.github",
+    "end_column": null,
+    "end_line": 1,
+    "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+    "path": ".github",
+    "raw_details": "",
+    "start_column": null,
+    "start_line": 1,
+    "title": ""
+  }
+]

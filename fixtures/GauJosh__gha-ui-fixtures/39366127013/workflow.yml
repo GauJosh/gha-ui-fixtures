@@ -1,0 +1,36 @@
+name: s08 dependency failure
+run-name: s08 dependency failure (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          pip install -r requirements-dev.txt
+          if [ "$OUTCOME" = "fail" ]; then pip install gha-ui-fixtures-nonexistent-package==9.9.9; fi
+      - name: Fetch remote schema
+        if: always()
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          if [ "$OUTCOME" = "fail" ]; then
+            curl -fsS --retry 2 https://schema.fixture.invalid/v1.json
+          else
+            echo "skipped"
+          fi

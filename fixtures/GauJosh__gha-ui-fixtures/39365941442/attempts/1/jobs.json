@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442692075",
+      "completed_at": "2026-10-20T03:45:33Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:19Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365941442/job/118442692075",
+      "id": 118442692075,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "noisy",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk7wN6w",
+      "run_attempt": 1,
+      "run_id": 39365941442,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365941442",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000814,
+      "runner_name": "GitHub Actions 1000000814",
+      "started_at": "2026-10-20T03:45:21Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:21Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:21Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:31Z",
+          "conclusion": "success",
+          "name": "Generate large noisy log",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:21Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:31Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:31Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442692075",
+      "workflow_name": "s09 huge log (pass, 5 MB)"
+    }
+  ],
+  "total_count": 1
+}

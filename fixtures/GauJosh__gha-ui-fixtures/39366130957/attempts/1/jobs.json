@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443287591",
+      "completed_at": "2026-10-20T03:47:34Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:47:30Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366130957/job/118443287591",
+      "id": 118443287591,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "grouped",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8UkJw",
+      "run_attempt": 1,
+      "run_id": 39366130957,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366130957",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000838,
+      "runner_name": "GitHub Actions 1000000838",
+      "started_at": "2026-10-20T03:47:32Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:47:33Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:47:32Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:33Z",
+          "conclusion": "failure",
+          "name": "Many grouped sections",
+          "number": 2,
+          "started_at": "2026-10-20T03:47:33Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:33Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:47:33Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443287591",
+      "workflow_name": "s10 log groups (fail)"
+    }
+  ],
+  "total_count": 1
+}

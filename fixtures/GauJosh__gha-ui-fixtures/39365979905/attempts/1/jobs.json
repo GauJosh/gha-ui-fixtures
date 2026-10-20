@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442808543",
+      "completed_at": "2026-10-20T03:45:49Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:45:44Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365979905/job/118442808543",
+      "id": 118442808543,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "attempt-sensitive",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk73U3w",
+      "run_attempt": 1,
+      "run_id": 39365979905,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365979905",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000825,
+      "runner_name": "GitHub Actions 1000000825",
+      "started_at": "2026-10-20T03:45:47Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:47Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:47Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:48Z",
+          "conclusion": "failure",
+          "name": "Fails on first attempt only",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:47Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:48Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:48Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442808543",
+      "workflow_name": "s15 rerun passes"
+    }
+  ],
+  "total_count": 1
+}

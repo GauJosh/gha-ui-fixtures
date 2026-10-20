@@ -1,0 +1,22 @@
+{
+  "attempts": 2,
+  "captured_at": "2026-10-20T03:54:00+00:00",
+  "conclusion": "success",
+  "event": "workflow_dispatch",
+  "head_branch": "main",
+  "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+  "logs": {
+    "118442808543": "ok",
+    "118443735163": "ok"
+  },
+  "redactions": {
+    "email": 1
+  },
+  "schema_version": 1,
+  "source": {
+    "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365979905",
+    "repo": "GauJosh/gha-ui-fixtures",
+    "run_id": 39365979905
+  },
+  "workflow": "s15 rerun passes"
+}

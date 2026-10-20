@@ -1,0 +1,73 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443246522",
+      "completed_at": "2026-10-20T03:47:30Z",
+      "conclusion": "failure",
+      "created_at": "2026-10-20T03:47:21Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366117907/job/118443246522",
+      "id": 118443246522,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "typecheck",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8SDug",
+      "run_attempt": 1,
+      "run_id": 39366117907,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366117907",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000833,
+      "runner_name": "GitHub Actions 1000000833",
+      "started_at": "2026-10-20T03:47:23Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:47:24Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:47:23Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:24Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 2,
+          "started_at": "2026-10-20T03:47:24Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:28Z",
+          "conclusion": "failure",
+          "name": "Type-check TypeScript",
+          "number": 3,
+          "started_at": "2026-10-20T03:47:24Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:29Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "number": 6,
+          "started_at": "2026-10-20T03:47:28Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:47:29Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "started_at": "2026-10-20T03:47:29Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443246522",
+      "workflow_name": "s04 compile error (fail)"
+    }
+  ],
+  "total_count": 1
+}

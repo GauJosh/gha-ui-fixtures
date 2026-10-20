@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118442783004",
+      "completed_at": "2026-10-20T03:45:44Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:45:39Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39365971452/job/118442783004",
+      "id": 118442783004,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "integration",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk71xHA",
+      "run_attempt": 1,
+      "run_id": 39365971452,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39365971452",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000823,
+      "runner_name": "GitHub Actions 1000000823",
+      "started_at": "2026-10-20T03:45:41Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:45:41Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:45:41Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:42Z",
+          "conclusion": "success",
+          "name": "Integration test (fails ~30% of runs)",
+          "number": 2,
+          "started_at": "2026-10-20T03:45:41Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:45:42Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:45:42Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118442783004",
+      "workflow_name": "s07 flaky"
+    }
+  ],
+  "total_count": 1
+}

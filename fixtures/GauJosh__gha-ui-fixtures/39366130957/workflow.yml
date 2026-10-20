@@ -1,0 +1,31 @@
+name: s10 log groups
+run-name: s10 log groups (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  grouped:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Many grouped sections
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          FAILED=""
+          for g in $(seq 1 50); do
+            echo "::group::Section $g"
+            for l in $(seq 1 40); do echo "section $g line $l"; done
+            if [ "$g" = 37 ] && [ "$OUTCOME" = "fail" ]; then
+              echo "FATAL: section 37 produced invalid output (synthetic)"
+              FAILED=1
+            fi
+            echo "::endgroup::"
+          done
+          [ -z "$FAILED" ]

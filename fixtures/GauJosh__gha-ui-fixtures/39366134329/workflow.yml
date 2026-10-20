@@ -1,0 +1,27 @@
+name: s11 annotations
+run-name: s11 annotations (${{ inputs.outcome }})
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+permissions:
+  contents: read
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Emit annotations
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+        run: |
+          echo "::notice file=src/fixture_app/calc.py,line=1::Synthetic notice"
+          echo "::warning file=src/fixture_app/calc.py,line=4,col=5::Synthetic warning: missing docstring"
+          if [ "$OUTCOME" = "fail" ]; then
+            echo "::error file=src/fixture_app/calc.py,line=9,col=12,title=ZeroDivision risk::divide() does not guard b == 0 (synthetic)"
+            exit 1
+          fi

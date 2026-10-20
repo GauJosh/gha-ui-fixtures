@@ -1,0 +1,45 @@
+name: s09 huge log
+run-name: s09 huge log (${{ inputs.outcome }}, ${{ inputs.megabytes }} MB)
+on:
+  workflow_dispatch:
+    inputs:
+      outcome:
+        description: pass or fail
+        type: choice
+        options: [fail, pass]
+        default: fail
+      megabytes:
+        description: approximate log size in MB
+        default: "30"
+permissions:
+  contents: read
+jobs:
+  noisy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate large noisy log
+        env:
+          OUTCOME: ${{ inputs.outcome }}
+          MB: ${{ inputs.megabytes }}
+        shell: python
+        run: |
+          import os, random, sys
+          random.seed(42)
+          target = int(os.environ["MB"]) * 1024 * 1024
+          fail = os.environ["OUTCOME"] == "fail"
+          colors = ["\033[32m", "\033[33m", "\033[36m", "\033[0m"]
+          written, n, err_at = 0, 0, target // 2
+          while written < target:
+              n += 1
+              if n % 5000 == 0:
+                  line = "x" * 20000  # very long line
+              else:
+                  line = f"{random.choice(colors)}[{n:08d}] processing chunk {n} checksum={random.getrandbits(64):016x}\033[0m"
+              if fail and written >= err_at:
+                  # The real cause sits mid-log; the job only exits non-zero at the end.
+                  line = f"ERROR: checksum mismatch in chunk {n}: expected 0xdeadbeef (synthetic root cause)"
+                  err_at = float("inf")
+              sys.stdout.write(line + "\n")
+              written += len(line) + 1
+          print("done")
+          sys.exit(1 if fail else 0)

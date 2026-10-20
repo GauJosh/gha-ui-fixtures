@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "check_run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/check-runs/118443486887",
+      "completed_at": "2026-10-20T03:48:29Z",
+      "conclusion": "success",
+      "created_at": "2026-10-20T03:48:14Z",
+      "head_branch": "main",
+      "head_sha": "4e73dc9b02850c7d0c33c9212477f22ce10d30bc",
+      "html_url": "https://github.com/GauJosh/gha-ui-fixtures/actions/runs/39366178069/job/118443486887",
+      "id": 118443486887,
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "name": "long",
+      "node_id": "CR_kwDOVQUgYs8AAAAbk8gupw",
+      "run_attempt": 1,
+      "run_id": 39366178069,
+      "run_url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/runs/39366178069",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions",
+      "runner_id": 1000000845,
+      "runner_name": "GitHub Actions 1000000845",
+      "started_at": "2026-10-20T03:48:16Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completed_at": "2026-10-20T03:48:17Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "started_at": "2026-10-20T03:48:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:48:27Z",
+          "conclusion": "success",
+          "name": "Long-running step",
+          "number": 2,
+          "started_at": "2026-10-20T03:48:17Z",
+          "status": "completed"
+        },
+        {
+          "completed_at": "2026-10-20T03:48:27Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "started_at": "2026-10-20T03:48:27Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://api.github.com/repos/GauJosh/gha-ui-fixtures/actions/jobs/118443486887",
+      "workflow_name": "s14 cancellation (10s)"
+    }
+  ],
+  "total_count": 1
+}
